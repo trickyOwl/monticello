@@ -1,0 +1,52 @@
+@mixin button-style {
+  padding-left:25px;
+  padding-right:25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 20px;
+  background: white;
+  color: #609cf5;
+  border: 1px solid #609cf5;
+  border-radius: 6px;
+  text-transform: uppercase;
+
+  &:hover{
+    background: rgba(96, 156, 245,0.1);
+  }
+  &:active,
+  &:focus{
+    outline: none;
+  }
+}
+
+@mixin underline-menu {
+      content:"";
+      //background: $mainColor;
+      display:inline-block;
+      bottom: -15px;
+      left: 1px;
+      height: 4px;
+      //width: 100%;
+      position:absolute;
+}
+
+@mixin i-style {
+  margin-top: 10px;
+  font-size: 34px;
+  color:$mainColor;
+}
+
+@mixin span-style {
+  margin-left: 30px;
+  color:#696969;
+  font-size: 19px;
+
+  a {
+    color:$fontColor;
+    text-decoration: none;
+
+    &:hover{
+      color:$mainColor;
+    }
+  }
+}

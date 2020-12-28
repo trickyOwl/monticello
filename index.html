@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/project.min.css">
+    <title>monticello</title>
+</head>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBptMr5Og0f5_igX2xqKS_n1bBjN1RfOrQ&callback=initMap"></script>
+<body>
+    <header class="slider">
+        <div class="slider__menu container d-flex">
+            <div class="menu__logo col-3">
+                <img src="img/Logo.png" alt="logo">
+            </div>
+            <div class="col-7 d-flex justify-content-center align-items-center">
+                <a href="#" class="mr-4">
+                    <div class="menu__nav d-flex align-items-center">
+                        <div class="circle mr-2"></div>
+                        <div class="pages ml-2">about us</div>
+                    </div>
+                </a>
+                <a href="#projects" class="ml-4 mr-4">
+                    <div class="menu__nav d-flex align-items-center">
+                        <div class="circle mr-2"></div>
+                        <div class="pages ml-2">projects</div>
+                    </div>
+                </a>
+                <a href="#news" class="ml-4 mr-4">
+                    <div class="menu__nav d-flex align-items-center">
+                        <div class="circle mr-2"></div>
+                        <div class="pages ml-2">news</div>
+                    </div>
+                </a>
+                <a href="#map" class="ml-4">
+                    <div class="menu__nav d-flex align-items-center">
+                        <div class="circle mr-2"></div>
+                        <div class="pages ml-2">contact</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-2 menu__socials d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-instagram"></i></a></div>
+            </div>
+        </div>
+        
+        <div class="sliders">
+            <div class="slide back-3 d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="display-3 text-white text-center">Simple & Modern</h1>
+                    <p class="text-center text-white">we make the world's beautiful every day</p>
+                </div>
+            </div>
+            <div class="slide back-5 d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="display-3 text-white text-center">Breakfast & Supper</h1>
+                    <p class="text-center text-white">we make the world's beautiful every day</p>
+                </div>
+            </div>
+            <div class="slide back-4 d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="display-3 text-white text-center">Jedi & Sith</h1>
+                    <p class="text-center text-white">we make the world's beautiful every day</p>
+                </div>
+            </div>
+                <div class="slide back-1 d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 class="display-3 text-white text-center">Empire & Republic</h1>
+                        <p class="text-center text-white">we make the world's beautiful every day</p>
+                    </div>
+                </div>
+                <div class="slide back-2 d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 class="display-3 text-white text-center">Comrade & Mister</h1>
+                        <p class="text-center text-white">we make the world's beautiful every day</p>
+                    </div>
+                </div>
+        </div>
+        <div class="arrow container d-flex justify-content-center align-items-center">
+            <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+            <!-- <i class="fas fa-chevron-down"></i> -->
+        </div>
+    </header>
+
+    <section id="projects" class="projects">
+        <div class="projects__title text-center">what we do</div>
+        <div class="projects__block-1 container d-flex">
+            <div class="col-6 img-1">
+                <img src="img/futuristic-house.png" alt="">
+            </div>
+            <div class="col-6 info-block">
+                <p>
+                    one world
+                </p>
+                <p>
+                    trade center
+                </p>
+                <p>
+                    Increasing prosperity in our lives can be accomplished 
+                    by having the right frame of mind. The truth is, 
+                    our thoughts are very powerful.
+                </p>
+                <input class="btn btn-lg btn-outline-dark text-uppercase" type="button" value="more details">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> New York City, Unites States - 1776 feet
+                </p>
+            </div>           
+        </div>
+        <div class="projects__block-2 container d-flex">
+            <div class="col-6 info-block">
+                <p>
+                    international
+                </p>
+                <p>
+                    commerce center
+                </p>
+                <p>
+                    Successful business haev many things in common,
+                    today we'll look at the big 'R' of recognition and how 
+                    a digital advertising network may help. 
+                </p>
+                <input class="btn btn-lg btn-outline-dark text-uppercase" type="button" value="more details">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> Hong Kong - 1588 feet
+                </p>
+            </div>           
+            <div class="col-6 img-2">
+                <img src="img/old-house.png" alt="old-house">
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news">
+        <div class="news__title text-center text-white">
+           latest new 
+        </div>
+        <div class="news__slides container justify-content-center">
+            <div class="slide d-flex container justify-content-center">
+                  <div class="col-4 bg-white slide-item pl-2">
+                      <img src="img/window.png" alt="">
+                      <p class="pl-3 pr-3 slide-title mt-3">
+                            see the unmatched beauty of the great.
+                      </p>
+                      <p class="pl-3 pr-3 slide-desc">
+                            Free directories: directories are perfect for 
+                            customers that are...searching for
+                      </p>
+                      <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                        <div class="user__pic">
+                            <img src="img/lady1.png" alt="isac">
+                        </div>
+                        <div class="ml-4 user__name">
+                            <div class="text-uppercase font-weight-bold">isaac dunn</div>
+                            <div class="text-primary font-weight-bold">09 Fed 2017</div>
+                        </div>
+                      </div>
+                  </div>           
+                  <div class="col-4 slide-item bg-white ml-3 mr-3">
+                    <img src="img/from-batman.png" alt="">
+                      <p class="pl-3 pr-3 slide-title mt-3">
+                            effective advertising pointers.
+                      </p>
+                      <p class="pl-3 pr-3 slide-desc">
+                            Having a home based business is a wodnerful asset to your life..
+                      </p>
+                      <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                        <div class="user__pic">
+                            <img src="img/guy.png" alt="dominic">
+                        </div>
+                        <div class="ml-4 user__name">
+                            <div class="text-uppercase font-weight-bold">dominic freeman</div>
+                            <div class="text-primary font-weight-bold">24 Apr 2017</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-4 bg-white slide-item pr-2">
+                    <img src="img/window.png" alt="">
+                      <p class="pl-3 pr-3 slide-title mt-3">
+                            hypnotize yourself into the ghost.
+                      </p>
+                      <p class="pl-3 pr-3 slide-desc">
+                            There are many things that are 
+                            important to catalog desing.
+                      </p>
+                      <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                        <div class="user__pic">
+                            <img src="img/lady2.png" alt="alice">
+                        </div>
+                        <div class="ml-4 user__name">
+                            <div class="text-uppercase font-weight-bold">alice ward</div>
+                            <div class="text-primary font-weight-bold">30 Dec 2017</div>
+                        </div>
+                      </div>
+                  </div>  
+            </div>
+            <div class="slide d-flex container justify-content-center">
+                <div class="col-4 bg-white slide-item ml-2">
+                    <img src="img/window.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          see the unmatched beauty of the great.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          Free directories: directories are perfect for 
+                          customers that are...searching for
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/lady1.png" alt="isac">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">isaac dunn</div>
+                          <div class="text-primary font-weight-bold">09 Fed 2017</div>
+                      </div>
+                    </div>
+                </div>           
+                <div class="col-4 slide-item bg-white ml-3 mr-3">
+                  <img src="img/from-batman.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          effective advertising pointers.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          Having a home based business is a wodnerful asset to your life..
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/guy.png" alt="dominic">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">dominic freeman</div>
+                          <div class="text-primary font-weight-bold">24 Apr 2017</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4 bg-white slide-item mr-2">
+                  <img src="img/window.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          hypnotize yourself into the ghost.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          There are many things that are 
+                          important to catalog desing.
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/lady2.png" alt="alice">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">alice ward</div>
+                          <div class="text-primary font-weight-bold">30 Dec 2017</div>
+                      </div>
+                    </div>
+                </div>  
+          </div>
+            <div class="slide d-flex container justify-content-center">
+                <div class="col-4 bg-white slide-item ml-2">
+                    <img src="img/window.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          see the unmatched beauty of the great.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          Free directories: directories are perfect for 
+                          customers that are...searching for
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/lady1.png" alt="isac">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">isaac dunn</div>
+                          <div class="text-primary font-weight-bold">09 Fed 2017</div>
+                      </div>
+                    </div>
+                </div>           
+                <div class="col-4 slide-item bg-white ml-3 mr-3">
+                  <img src="img/from-batman.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          effective advertising pointers.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          Having a home based business is a wodnerful asset to your life..
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/guy.png" alt="dominic">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">dominic freeman</div>
+                          <div class="text-primary font-weight-bold">24 Apr 2017</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4 bg-white slide-item mr-2">
+                  <img src="img/window.png" alt="">
+                    <p class="pl-3 pr-3 slide-title mt-3">
+                          hypnotize yourself into the ghost.
+                    </p>
+                    <p class="pl-3 pr-3 slide-desc">
+                          There are many things that are 
+                          important to catalog desing.
+                    </p>
+                    <div class="user pl-3 pr-3 pb-3 d-flex align-items-center">
+                      <div class="user__pic">
+                          <img src="img/lady2.png" alt="alice">
+                      </div>
+                      <div class="ml-4 user__name">
+                          <div class="text-uppercase font-weight-bold">alice ward</div>
+                          <div class="text-primary font-weight-bold">30 Dec 2017</div>
+                      </div>
+                    </div>
+                </div>  
+          </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="gallery__title text-center text-dark">
+            gallery
+        </div>     
+        <div class="gallery__blocks d-flex container">
+                <div class="col-6">
+                    <img src="img/gal1.png" alt="nice house">
+                </div>
+                <div class="col-6 d-flex flex-wrap mycol">
+                    <div class="col-6 mycol">
+                        <img class="img-fluid" src="img/gal2.png" alt="">
+                    </div>
+                    <div class="col-6 mycol">
+                        <img class="img-fluid" src="img/gal3.png" alt="">
+                    </div>
+                    <div class="col-6 mycol align-self-end">
+                        <img class="img-fluid" src="img/gal4.png" alt="">
+                    </div>
+                    <div class="col-6 mycol align-self-end">
+                        <img class="img-fluid" src="img/gal5.png" alt="">
+                    </div>
+                </div>
+        </div>  
+        <div class="d-flex justify-content-center">
+            <input class="text-uppercase btn btn-outline-dark btn-lg" type="button" value="See More">
+        </div>
+
+    </section>
+
+    <footer id="map" class="footer container-fluid">
+        <div id="myMap"></div>
+        <div class="map__footer d-flex justify-content-center align-items-center">
+            <div class="footer__content container">
+                <div class="d-flex col-10 container justify-content-between">
+                    <div class="footer__logo col-3">
+                        <img src="img/Logo.png" alt="logo">
+                    </div>
+                    <div class="col-3 footer__socials d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                        <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                        <div class="d-flex justify-content-center align-items-center"><a href="#"><i class="fab fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-10 container content__copyrights text-white">
+                    <div>
+                        Copyrights <i class="far fa-copyright"></i> 2017 Montecello <span class="ml-2 mr-2">|</span> Made with <i class="fas fa-heart"></i> by Ga Huy
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay border">
+            <p class="overlay__title text-center">get in touch</p>
+            <div class="container d-flex">
+                <div class="col-6 contact-info">
+                    <p>
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        91 Nolan Extensions Suite 670
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-2 rotate"></i>
+                        <a href="tel:0013568682454">+001 356-868-2454</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-inbox mr-2"></i>
+                        <a href="mailto:gahuy93@gmail.com">gahuy93@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="far fa-clock mr-2 rotate"></i>
+                        From 07:50AM to 19:30PM
+                    </p>
+                </div>
+                <div class="col-6 mr-2 contact-form">
+                    <form action="get">
+                        <input id="name"  type="text" placeholder="Your Name">
+                        <input id="email" class="mt-3 " type="email" placeholder="Email">
+                        <div id="error" class="mt-3">
+                            <!-- <span class="bg-danger">Unfortunately, wrong data =(</span> -->
+                        </div>
+                        <div style="width:95%;">
+                            <input id="form-btn" type="button" class="mt-5 float-right btn-lg btn btn-outline-dark" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/project.js"></script>
+</body>
+</html>
